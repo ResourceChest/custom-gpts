@@ -17,3 +17,22 @@ Interested in contributing to the Custom GPT List? Please refer to our [CONTRIBU
 ## Disclaimer
 
 The resources listed here are compiled based on community contributions and research. Please ensure to review and verify before them use.
+
+<style>
+.tag-highlight {
+    background-color: yellow;
+}
+</style>
+
+<script>
+function highlightTags(tag) {
+    var elements = document.getElementsByClassName('tags');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].classList.remove('tag-highlight');
+    }
+    var highlightedElements = document.querySelectorAll('td.tags:contains("' + tag + '")');
+    highlightedElements.forEach(function (el) {
+        el.classList.add('tag-highlight');
+    });
+}
+</script>
