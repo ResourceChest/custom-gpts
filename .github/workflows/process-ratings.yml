@@ -21,6 +21,8 @@ jobs:
 
       - name: Process Rating Issues
         run: python .github/scripts/process_ratings.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push Changes
         run: |
