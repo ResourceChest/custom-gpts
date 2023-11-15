@@ -1,0 +1,22 @@
+name: Process GPT Ratings
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  update-ratings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Process Rating Issues
+        run: python .github/scripts/process_ratings.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'robbiebusinessacc'
+          git config --global user.email 'robbie.github@gmail.com'
+          git add README.md
+          git diff --staged --quiet || (git commit -m "Update GPT ratings" && git push)
