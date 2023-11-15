@@ -11,7 +11,7 @@ def parse_readme_for_ratings(readme_content):
     for line in readme_content.splitlines():
         if '|' in line and line.startswith('|'):
             parts = line.split('|')
-            if len(parts) >= 6:  # Considering your table structure
+            if len(parts) >= 6:  # Considering table structure
                 gpt_id = parts[1].strip()
                 current_rating = parts[5].strip()  # Ratings column
                 ratings[gpt_id] = int(current_rating.replace('+', ''))
@@ -34,7 +34,7 @@ def update_readme_with_ratings(readme_content, ratings):
     for line in readme_content.splitlines():
         if '|' in line and line.startswith('|'):
             parts = line.split('|')
-            if len(parts) >= 6:  # Considering your table structure
+            if len(parts) >= 6:  # Considering table structure
                 gpt_id = parts[1].strip()
                 if gpt_id in ratings:
                     new_rating = f'+{ratings[gpt_id]}'
@@ -50,7 +50,7 @@ def update_readme_with_ratings(readme_content, ratings):
     return '\n'.join(new_readme_lines)
 
 def main():
-    repo = g.get_repo('ResourceChest/custom-gpts')  # Your org/repo
+    repo = g.get_repo('ResourceChest/custom-gpts')
     readme = repo.get_contents('README.md')
     current_readme_content = readme.decoded_content.decode('utf-8')
 
