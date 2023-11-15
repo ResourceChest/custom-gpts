@@ -1,6 +1,6 @@
 # Custom GPT List
 
-A curated list of custom GPTs
+A curated list of custom GPTs for a variety of purposes and applications.
 
 ## Resources
 
