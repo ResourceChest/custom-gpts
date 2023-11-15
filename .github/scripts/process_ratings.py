@@ -8,7 +8,10 @@ g = Github(os.environ['GITHUB_TOKEN'])
 # Function to parse current ratings from README.md
 def parse_readme_for_ratings(readme_content):
     ratings = {}
-    for line in readme_content.splitlines():
+    lines = readme_content.splitlines()
+    header = lines[0]
+    data_lines = lines[2:]
+    for line in data_lines:
         if '|' in line and line.startswith('|'):
             parts = line.split('|')
             if len(parts) >= 6:  # Considering table structure
