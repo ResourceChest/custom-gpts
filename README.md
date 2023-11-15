@@ -18,11 +18,6 @@ Interested in contributing to the Custom GPT List? Please refer to our [CONTRIBU
 
 The resources listed here are compiled based on community contributions and research. Please ensure to review and verify before them use.
 
-<style>
-.tag-highlight {
-    background-color: yellow;
-}
-</style>
 
 <script>
 function highlightTags(tag) {
