@@ -11,6 +11,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install 'github' Module
+        run: pip install PyGitHub 
+
       - name: Process Rating Issues
         run: python .github/scripts/process_ratings.py
 
