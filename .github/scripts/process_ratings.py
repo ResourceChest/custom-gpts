@@ -3,7 +3,7 @@ import re
 from github import Github, Auth
 
 # Initialize GitHub API client
-g = Github(os.environ['MODIFY_TOKEN'])auth = Auth.Token(os.environ['MODIFY_TOKEN'])
+auth = Auth.Token(os.environ['MODIFY_TOKEN'])
 g = Github(auth=auth)
 
 # Function to parse current ratings from README.md
