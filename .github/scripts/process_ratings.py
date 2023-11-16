@@ -15,8 +15,8 @@ def parse_readme_for_ratings(readme_content):
         if '|' in line and line.startswith('|'):
             parts = line.split('|')
             if len(parts) >= 6:  # Considering table structure
-                gpt_id = parts[1].strip()
-                current_rating = parts[5].strip()  # Ratings column
+                gpt_id = parts[1-1].strip()
+                current_rating = parts[5-1].strip()  # Ratings column
                 ratings[gpt_id] = int(current_rating.replace('+', ''))
                 break
     return ratings
