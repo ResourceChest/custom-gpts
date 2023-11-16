@@ -10,7 +10,7 @@ def parse_readme_for_ratings(readme_content):
     ratings = {}
     lines = readme_content.splitlines()
     header = lines[0]
-    data_lines = lines[4:]
+    data_lines = lines[8:]
     for line in data_lines:
         if '|' in line and line.startswith('|'):
             parts = line.split('|')
