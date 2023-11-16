@@ -18,7 +18,6 @@ def parse_readme_for_ratings(readme_content):
                 gpt_id = parts[1].strip()
                 current_rating = parts[5].strip()  # Ratings column
                 ratings[gpt_id] = int(current_rating.replace('+', ''))
-                break
     return ratings
 
 # Function to update ratings based on issues
