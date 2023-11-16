@@ -1,9 +1,10 @@
 import os
 import re
-from github import Github
+from github import Github, Auth
 
 # Initialize GitHub API client
-g = Github(os.environ['MODIFY_TOKEN'])
+g = Github(os.environ['MODIFY_TOKEN'])auth = Auth.Token(os.environ['MODIFY_TOKEN'])
+g = Github(auth=auth)
 
 # Function to parse current ratings from README.md
 def parse_readme_for_ratings(readme_content):
@@ -53,22 +54,29 @@ def update_readme_with_ratings(readme_content, ratings):
     return '\n'.join(new_readme_lines)
 
 def main():
-    repo = g.get_repo('ResourceChest/custom-gpts')
-    readme = repo.get_contents('README.md')
-    current_readme_content = readme.decoded_content.decode('utf-8')
+    try:
+        repo = g.get_repo('ResourceChest/custom-gpts')
+        readme = repo.get_contents('README.md')
+        current_readme_content = readme.decoded_content.decode('utf-8')
 
-    # Parse current ratings
-    ratings = parse_readme_for_ratings(current_readme_content)
+        # Parse current ratings
+        ratings = parse_readme_for_ratings(current_readme_content)
 
-    # Update ratings from issues
-    updated_ratings = update_ratings_from_issues(repo, ratings)
+        # Update ratings from issues
+        updated_ratings = update_ratings_from_issues(repo, ratings)
 
-    # Update README with new ratings
-    new_readme_content = update_readme_with_ratings(current_readme_content, updated_ratings)
-    
-    # Push changes to GitHub
-    if new_readme_content != current_readme_content:
-        repo.update_file('README.md', 'Update GPT ratings', new_readme_content, readme.sha)
+        # Update README with new ratings
+        new_readme_content = update_readme_with_ratings(current_readme_content, updated_ratings)
+        
+        # Push changes to GitHub
+        if new_readme_content != current_readme_content:
+            repo.update_file('README.md', 'Update GPT ratings', new_readme_content, readme.sha)
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if __name__ == '__main__':
+    main()
 
 if __name__ == '__main__':
     main()
