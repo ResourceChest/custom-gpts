@@ -9,7 +9,7 @@ assignees: ''
 
 # Thumbs Up Rating for a GPT
 
-Please replace `[GPT id]` in the title with the id of the GPT you are giving a thumbs up.
+Please replace `GPT id` in the title with the id of the GPT you are giving a thumbs up (KEEP THE SQUARE BRACKETS).
 
 ## Why are you giving a thumbs up?
 
