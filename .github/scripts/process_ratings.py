@@ -5,7 +5,7 @@ from github import Github, Auth
 # Initialize GitHub API client
 auth = Auth.Token(os.environ['MODIFY_TOKEN'])
 g = Github(auth=auth)
-gitHub.enable_console_debug_logging()
+Github.enable_console_debug_logging()
 
 # Function to parse current ratings from README.md
 def parse_readme_for_ratings(readme_content):
