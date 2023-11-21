@@ -41,7 +41,7 @@ def update_readme_with_ratings(readme_content, ratings):
             if len(parts) >= 6:  # Considering table structure
                 gpt_id = parts[1].strip()
                 if gpt_id in ratings:
-                    new_rating = f'+{ratings[gpt_id]}'
+                    new_rating = f'{ratings[gpt_id]}'
                     parts[5] = f' {new_rating} '  # Update rating
                     new_line = '|'.join(parts)
                     new_readme_lines.append(new_line)
