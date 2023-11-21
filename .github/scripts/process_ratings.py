@@ -24,12 +24,20 @@ def parse_readme_for_ratings(readme_content):
 # Function to update ratings based on issues
 def update_ratings_from_issues(repo, ratings):
     for issue in repo.get_issues(state='open'):
+        rating_changed = False
         if 'rating-up' in [label.name for label in issue.labels]:
             gpt_id = issue.title.split('[')[-1].split(']')[0]
             ratings[gpt_id] = ratings.get(gpt_id, 0) + 1
+            rating_changed = True
         elif 'rating-down' in [label.name for label in issue.labels]:
             gpt_id = issue.title.split('[')[-1].split(']')[0]
             ratings[gpt_id] = ratings.get(gpt_id, 0) - 1
+            rating_changed = True
+
+        # Close the issue if the rating was changed
+        if rating_changed:
+            issue.edit(state='closed')
+    
     return ratings
 
 # Function to update README.md with new ratings
