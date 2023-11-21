@@ -6,7 +6,7 @@ A curated list of custom GPTs for a variety of purposes and applications. (Requi
 
 |id| Name | Description | Tags | Ratings |
 |--| ---- | ----------- | ---- | ------- |
-|1| [Talk To YouTube Video](https://chat.openai.com/g/g-ynY1wMTRY-talk-to-youtube-video) | I'm your YouTube video partner, here to enhance your understanding of content. | `Summarize`, `Youtube`| 1 |
+|1| [Talk To YouTube Video](https://chat.openai.com/g/g-ynY1wMTRY-talk-to-youtube-video) | I'm your YouTube video partner, here to enhance your understanding of content. | `Summarize`, `Youtube`| 0 |
 |2| [FastGPT ⚡](https://chat.openai.com/g/g-VnlKc5BQK-fastgpt) | I'm FastGPT⚡Faster than any other GPT. Just like ChatGPT but without the waffle. | `ChatGPT`| 0 |
 |3| [DesignerGPT](https://chat.openai.com/g/g-2Eo3NxuS7-designergpt) | Creates and hosts beautiful websites |`Website`, `Creation`| 0 |
 |4| [React AI](https://chat.openai.com/g/g-AVrfRPzod-react-ai) | Your React companion. |`React`, `Tutor`| 0 |
