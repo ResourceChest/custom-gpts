@@ -1,7 +1,7 @@
 ---
 name: Thumbs Up Rating
 about: Give a thumbs up to a GPT you like
-title: 'Rating: Thumbs Up for [GPT id]'
+title: 'Rating Up [GPT ID]'
 labels: rating-up
 assignees: ''
 
