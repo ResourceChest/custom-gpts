@@ -10,9 +10,9 @@ We have an interactive rating system! Your feedback is invaluable in helping bot
 - **Like a GPT**: If you find a GPT useful, give it a thumbs-up. Use our ["Like" issue template](https://github.com/ResourceChest/custom-gpts/issues/new?template=1-thumbs-up-rating.md) and specify the GPT ID in the title.
 - **Dislike a GPT**: If a GPT could be improved, give it a thumbs-down. Use our ["Dislike" issue template](https://github.com/ResourceChest/custom-gpts/issues/new?template=2-thumbs-down-rating.md) and include the GPT ID in the title.
 
-Every like increases the GPT's rating by +1, and every dislike decreases it by 1. Ratings are processed automatically (slowly) and reflected in the list below.
+Ratings are processed automatically (slowly) and reflected in the list below.
 
-## Resources
+## List
 
 |id| Name | Description | Tags | Ratings |
 |--| ---- | ----------- | ---- | ------- |
