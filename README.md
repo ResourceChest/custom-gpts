@@ -12,7 +12,7 @@ We have an interactive rating system! Your feedback is invaluable in helping bot
 
 Ratings are processed automatically (slowly) and reflected in the list below.
 
-## List
+## Custom GPT Catalog
 
 |id| Name | Description | Tags | Ratings |
 |--| ---- | ----------- | ---- | ------- |
