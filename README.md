@@ -1,6 +1,6 @@
 # Custom GPT List
 
-A curated list of custom GPTs for a variety of purposes and applications. (Requires ChatGPT Plus)
+A curated list of custom GPTs, separate from those in the GPT Store, is designed for ChatGPT Plus users seeking enhanced functionality. These GPTs uniquely utilize stored data and "actions," offering a more dynamic and effective experience than those in the GPT Store.
 
 ## Interactive Rating System
 
@@ -22,6 +22,8 @@ Ratings are processed automatically (slowly) and reflected in the list below.
 |3| [DesignerGPT](https://chat.openai.com/g/g-2Eo3NxuS7-designergpt) | Creates and hosts beautiful websites |`Website`, `Creation`| 0 |
 |4| [React AI](https://chat.openai.com/g/g-AVrfRPzod-react-ai) | Your React companion. |`React`, `Tutor`| 1 |
 |5| [Python Arcade Tutor](https://chat.openai.com/g/g-INDKlxDEO-python-arcade-library-tutor) | Educational GPT expert in Python Arcade library. |`Python`, `Tutor`| 0 |
+|6| [Consensus](https://chat.openai.com/g/g-bo0FiWLY7-consensus) | Your AI Research Assistant. Search 200M academic papers from Consensus, get science-based answers, and draft content with accurate citations. | `Research`, `Academic Papers` | 0 |
+|7| [Grimoire](https://chat.openai.com/g/g-n7Rs0IK86-grimoire) | Create a website (or anything) with a sentence. | `Website`, `Creation` | 0 |
 ---
 
 
