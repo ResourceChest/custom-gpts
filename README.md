@@ -96,6 +96,18 @@ Ratings are processed automatically and reflected in the tables below.
 
 ---
 
+## More from ResourceChest
+
+Explore our other curated collections:
+
+| Repository | Description |
+|---|---|
+| [Chrome Privacy Extensions](https://github.com/ResourceChest/chrome-privacy-extensions) | Curated Chrome extensions for privacy and security |
+
+> Follow [ResourceChest](https://github.com/ResourceChest) for more curated resource collections.
+
+---
+
 ## Contributing
 
 Want to add a GPT or improve the list? See our [CONTRIBUTING.md](https://github.com/ResourceChest/.github/blob/main/CONTRIBUTING.md) for guidelines.
