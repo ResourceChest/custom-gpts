@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/social-preview.png" alt="Custom GPTs Catalog" width="800">
+</p>
+
 # Custom GPTs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/ResourceChest/custom-gpts/blob/main/LICENSE)
