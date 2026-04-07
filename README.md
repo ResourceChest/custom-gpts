@@ -98,13 +98,6 @@ Ratings are processed automatically and reflected in the tables below.
 | 1 | [Talk To YouTube Video](https://chatgpt.com/g/g-ynY1wMTRY-talk-to-youtube-video) | Enhance your understanding of YouTube content with interactive Q&A. | `Summarize`, `YouTube` | 2 |
 | 27 | [Video GPT by VEED](https://chatgpt.com/g/g-pNWGgUYqS-video-gpt-by-veed) | Create short videos with AI-generated scripts, voiceovers, and visuals. | `Video`, `Creation` | 0 |
 
----|---|
-| [Chrome Privacy Extensions](https://github.com/ResourceChest/chrome-privacy-extensions) | Curated Chrome extensions for privacy and security |
-
-> Follow [ResourceChest](https://github.com/ResourceChest) for more curated resource collections.
-
----
-
 ## More from ResourceChest
 
 | Repository | Description |
