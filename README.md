@@ -4,6 +4,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/ResourceChest/custom-gpts)](https://github.com/ResourceChest/custom-gpts/commits/main)
 [![Stars](https://img.shields.io/github/stars/ResourceChest/custom-gpts?style=social)](https://github.com/ResourceChest/custom-gpts/stargazers)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/ResourceChest/.github/blob/main/CONTRIBUTING.md)
+[![Link Check](https://github.com/ResourceChest/custom-gpts/actions/workflows/link-check.yml/badge.svg)](https://github.com/ResourceChest/custom-gpts/actions/workflows/link-check.yml)
 
 A curated catalog of useful Custom GPTs for ChatGPT Plus, Team, and Enterprise users. Custom GPTs extend ChatGPT with specialized instructions, knowledge, and actions -- turning it into a purpose-built tool for coding, research, design, writing, and more.
 
