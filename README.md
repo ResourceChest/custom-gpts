@@ -39,7 +39,7 @@ Ratings are processed automatically and reflected in the tables below.
 ## Coding & Development
 
 | ID | Name | Description | Tags | Rating |
-|----|------|-------------|------|--------|
+|----|---|-------|---|-----|
 | 7 | [Grimoire](https://chatgpt.com/g/g-n7Rs0IK86-grimoire) | Create a website (or anything) with a sentence. Fullstack coding wizard. | `Website`, `Fullstack` | 0 |
 | 8 | [Code Copilot](https://chatgpt.com/g/g-2DQzU5UZl-code-copilot) | Code smarter with expert assistance for debugging, optimization, and best practices. | `Coding`, `Debugging` | 0 |
 | 4 | [React AI](https://chatgpt.com/g/g-AVrfRPzod-react-ai) | Your React companion. | `React`, `Tutor` | 1 |
@@ -50,7 +50,7 @@ Ratings are processed automatically and reflected in the tables below.
 ## Research & Academic
 
 | ID | Name | Description | Tags | Rating |
-|----|------|-------------|------|--------|
+|----|---|-------|---|-----|
 | 6 | [Consensus](https://chatgpt.com/g/g-bo0FiWLY7-consensus) | Search 200M+ academic papers, get science-based answers, and draft content with citations. | `Research`, `Academic Papers` | 0 |
 | 11 | [Scholar GPT](https://chatgpt.com/g/g-B3hgivKK9-scholar-gpt) | Research assistant that finds, summarizes, and cites academic literature. | `Research`, `Literature Review` | 0 |
 | 12 | [Academic Research Pro](https://chatgpt.com/g/g-3s6SJ5V7S-academic-research-pro) | Advanced academic research companion for papers, theses, and literature reviews. | `Research`, `Academic Writing` | 0 |
@@ -59,14 +59,14 @@ Ratings are processed automatically and reflected in the tables below.
 ## Writing & Content
 
 | ID | Name | Description | Tags | Rating |
-|----|------|-------------|------|--------|
+|----|---|-------|---|-----|
 | 14 | [AI Humanizer](https://chatgpt.com/g/g-9PKhaweyb-ai-humanizer) | Rewrite AI-generated text to sound more natural and human. | `Writing`, `Humanizer` | 0 |
 | 15 | [SEO GPT](https://chatgpt.com/g/g-hxDOCBQrs-seo-gpt) | SEO-focused content strategy and optimization assistant. | `SEO`, `Marketing` | 0 |
 
 ## Image & Design
 
 | ID | Name | Description | Tags | Rating |
-|----|------|-------------|------|--------|
+|----|---|-------|---|-----|
 | 16 | [DALL-E](https://chatgpt.com/g/g-2fkFE8rbu-dall-e) | Official DALL-E GPT for generating images from text prompts. | `Image Generation`, `DALL-E` | 0 |
 | 17 | [Image Generator](https://chatgpt.com/g/g-IFTpJapfX-image-generator) | Generate images with detailed prompt engineering and style control. | `Image Generation`, `Art` | 0 |
 | 18 | [Logo Maker](https://chatgpt.com/g/g-gFt1ghYJl-logo-maker) | Design professional logos from a description. | `Logo`, `Branding` | 0 |
@@ -78,7 +78,7 @@ Ratings are processed automatically and reflected in the tables below.
 ## Productivity & Business
 
 | ID | Name | Description | Tags | Rating |
-|----|------|-------------|------|--------|
+|----|---|-------|---|-----|
 | 2 | [FastGPT](https://chatgpt.com/g/g-VnlKc5BQK-fastgpt) | Faster than any other GPT. Like ChatGPT but without the waffle. | `ChatGPT`, `Speed` | 0 |
 | 3 | [DesignerGPT](https://chatgpt.com/g/g-2Eo3NxuS7-designergpt) | Creates and hosts beautiful websites. | `Website`, `Creation` | 0 |
 | 23 | [Finance Wizard](https://chatgpt.com/g/g-aIWEfl3zH-finance-wizard) | Financial analysis, budgeting guidance, and investment insights. | `Finance`, `Analysis` | 0 |
@@ -87,28 +87,35 @@ Ratings are processed automatically and reflected in the tables below.
 ## Data & Analysis
 
 | ID | Name | Description | Tags | Rating |
-|----|------|-------------|------|--------|
+|----|---|-------|---|-----|
 | 25 | [Data Analyst](https://chatgpt.com/g/g-HMNcP6w7d-data-analyst) | Upload data files and get analysis, visualizations, and insights. | `Data`, `Analytics` | 0 |
 | 26 | [AI PDF](https://chatgpt.com/g/g-TgjKDuQwZ-ai-pdf) | Upload and chat with PDFs. Summarize, extract, and answer questions from documents. | `PDF`, `Documents` | 0 |
 
 ## Education & Learning
 
 | ID | Name | Description | Tags | Rating |
-|----|------|-------------|------|--------|
+|----|---|-------|---|-----|
 | 1 | [Talk To YouTube Video](https://chatgpt.com/g/g-ynY1wMTRY-talk-to-youtube-video) | Enhance your understanding of YouTube content with interactive Q&A. | `Summarize`, `YouTube` | 2 |
 | 27 | [Video GPT by VEED](https://chatgpt.com/g/g-pNWGgUYqS-video-gpt-by-veed) | Create short videos with AI-generated scripts, voiceovers, and visuals. | `Video`, `Creation` | 0 |
+
+---|---|
+| [Chrome Privacy Extensions](https://github.com/ResourceChest/chrome-privacy-extensions) | Curated Chrome extensions for privacy and security |
+
+> Follow [ResourceChest](https://github.com/ResourceChest) for more curated resource collections.
 
 ---
 
 ## More from ResourceChest
 
-Explore our other curated collections:
-
 | Repository | Description |
-|---|---|
+|:--------|:------|
 | [Chrome Privacy Extensions](https://github.com/ResourceChest/chrome-privacy-extensions) | Curated Chrome extensions for privacy and security |
+| [AI Agents](https://github.com/ResourceChest/ai-agents) | Practical AI agents, frameworks, and tools for developers |
+| [FinOps Tools](https://github.com/ResourceChest/finops-tools) | Vendor-neutral tools for cloud cost optimization |
+| [Local-First Tools](https://github.com/ResourceChest/local-first-tools) | Local-first, offline-capable, privacy-respecting tools |
+| [Dev Tools (No Signup)](https://github.com/ResourceChest/dev-tools-no-signup) | Free developer tools that work instantly without an account |
 
-> Follow [ResourceChest](https://github.com/ResourceChest) for more curated resource collections.
+> **[Follow ResourceChest](https://github.com/ResourceChest)** for more curated resource collections.
 
 ---
 
