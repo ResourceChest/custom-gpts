@@ -4,9 +4,9 @@
 
 # Custom GPTs
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/ResourceChest/custom-gpts/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/ResourceChest/custom-gpts)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/ResourceChest/custom-gpts)](https://github.com/ResourceChest/custom-gpts/commits/main)
-[![Stars](https://img.shields.io/github/stars/ResourceChest/custom-gpts?style=social)](https://github.com/ResourceChest/custom-gpts/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/ResourceChest/custom-gpts)](https://github.com/ResourceChest/custom-gpts/stargazers)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/ResourceChest/.github/blob/main/CONTRIBUTING.md)
 [![Link Check](https://github.com/ResourceChest/custom-gpts/actions/workflows/link-check.yml/badge.svg)](https://github.com/ResourceChest/custom-gpts/actions/workflows/link-check.yml)
 
